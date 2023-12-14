@@ -93,6 +93,23 @@ span {
 a:hover {
   cursor: pointer;
 }
+.site-map-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+}
+.site-map-nav {
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "Merienda", cursive;
+  text-decoration: none;
+}
+.site-map-nav:hover {
+  color: #b4b4b3;
+}
+.nav-it {
+  margin: 50px;
+}
 @media all and (max-width: 1440px) {
   .footer-disclosure {
     padding-bottom: 200px;
