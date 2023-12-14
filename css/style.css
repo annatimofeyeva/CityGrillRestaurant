@@ -5,7 +5,7 @@ body {
 img {
   height: 1300px;
   padding: 3px;
-  width: 80%;  
+  width: 80%;
 }
 .wrapper {
   display: flex;
@@ -49,32 +49,50 @@ span {
   padding-top: 10px;
 }
 .btn {
-background-color: blue;
-color: #ffffff;
-font-size: 40px;
-padding: 15px;
-position: absolute; 
-top: 500px; 
-left: 500px; 
+  background-color: blue;
+  color: #000000;
+  background-color: #f7f6f1;
+  font-size: 40px;
+  padding: 24px;
+  position: absolute;
+  top: 570px;
+  left: 430px;
+  font-family: "Merienda", cursive;
+  text-decoration: none;
+}
+.btn:hover {
+  color: #ffffff;
+  background-color: #000000;
 }
 .main-images-section {
-    position: relative;
+  position: relative;
 }
 .btn-chicago {
-    background-color: blue;
-    color: #ffffff;
-    font-size: 30px;
-    padding: 15px;
-    position: absolute; 
-    top: 500px; 
-    left: 1800px; 
+  display: block;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 40px;
+  padding: 24px;
+  position: absolute;
+  top: 500px;
+  left: 1700px;
+  font-family: "Merienda", cursive;
+  text-decoration: none;
 }
-
+.btn-chicago:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+a:hover {
+  cursor: pointer;
+}
 
 /* 1440px adaptation */
 /* 
 .one{
     width: 850px;
 } */
-
-
