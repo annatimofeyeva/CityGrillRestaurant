@@ -4,7 +4,6 @@ body {
 }
 img {
   height: 1300px;
-  padding: 3px;
   width: 80%;
 }
 .wrapper {
@@ -76,6 +75,10 @@ span {
   background-color: #000000;
   color: #ffffff;
   font-size: 40px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 24px;
   position: absolute;
   top: 500px;
@@ -90,9 +93,17 @@ span {
 a:hover {
   cursor: pointer;
 }
-
-/* 1440px adaptation */
-/* 
-.one{
-    width: 850px;
-} */
+@media all and (max-width: 1440px) {
+  .footer-disclosure {
+    padding-bottom: 200px;
+  }
+  .btn {
+    left: 200px;
+    top: 550px;
+  }
+  .btn-chicago {
+    left: 950px;
+    width: 230px;
+    height: 230px;
+  }
+}
