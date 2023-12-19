@@ -207,6 +207,24 @@ p {
     line-height: 35px;
     font-family: "Merienda", cursive;
 }
+#email-us {
+    color: #ffffff;
+    text-decoration: none;
+}
+#btn-direction {
+    text-decoration: none;
+    color: white;
+}
+##btn-direction:hover {
+    cursor: pointer;
+}
+button {
+    background-color: #A76435;
+    padding: 12px 32px;
+    margin: 28px 0px 0px;
+    font-family: "Merienda", cursive;
+    font-size: 16px;
+}
 
 
 
