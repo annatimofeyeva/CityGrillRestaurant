@@ -245,8 +245,23 @@ button:hover {
   font-size: 18px;
 }
 .happenings {
-    background-color: #333333;
-    height: 700px;
+  background-color: #333333;
+  height: 1000px;
+}
+select {
+  margin: 30px;
+}
+#input-date {
+  padding: 25px;
+  margin-top: 70px;
+  font-size: 15px;
+}
+.reservation-party-size {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+    padding-right: 75px;
+    font-size: 15px;
 }
 
 @media all and (max-width: 1440px) {
