@@ -173,6 +173,11 @@ span.rest-name:hover {
 .main-chicago-page {
     background-color: #333333;
 }
+.chicago-page-main-reservation {
+    background: url("../img/food-img.jpg") center center/cover no-repeat;
+    padding: 200px;
+}
+
 
 
 
