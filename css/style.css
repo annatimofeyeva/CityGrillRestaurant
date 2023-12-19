@@ -159,80 +159,95 @@ span.rest-name:hover {
   color: #b4b4b3;
 }
 .image {
-    width: 100%;
-    height: 700px;
-    margin: 0;
+  width: 100%;
+  height: 700px;
+  margin: 0;
 }
 .chicago-page-main-contact {
-    background-color: #333333;
-    height: 300px; 
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
-    color: #ffffff;
+  background-color: #333333;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+  margin-top: 60px;
 }
 .main-chicago-page {
-    background-color: #333333;
+  background-color: #333333;
 }
 .chicago-page-main-reservation {
-    background: url("../img/food-img.jpg") center center/cover no-repeat;
-    padding: 200px;    
-    
+  background: url("../img/food-img.jpg") center center/cover no-repeat;
+  padding: 200px;
 }
 .chicago-page-main-about {
-    background-color: #333333;
-    height: 500px;     
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  background-color: #333333;
+  height: 500px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .about-img {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
-#about-us-name {
-font-size: 30px;
-color: #ffffff;
-font-family: "Merienda", cursive;
+h2 {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Merienda", cursive;
 }
 .reservation-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 p {
-    font-size: 18px;
-    line-height: 35px;
-    font-family: "Merienda", cursive;
+  font-size: 18px;
+  line-height: 35px;
+  font-family: "Merienda", cursive;
+  margin: 0;
 }
 #email-us {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+}
+#contact-phone {
+  text-decoration: underline;
+  color: #ffffff;
 }
 #btn-direction {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
-##btn-direction:hover {
-    cursor: pointer;
+#btn-direction:hover {
+  cursor: pointer;
 }
 button {
-    background-color: #A76435;
-    padding: 12px 32px;
-    margin: 28px 0px 0px;
-    font-family: "Merienda", cursive;
-    font-size: 16px;
+  background-color: #a76435;
+  padding: 12px 32px;
+  margin: 28px 0px 0px;
+  font-family: "Merienda", cursive;
+  font-size: 16px;
 }
-
-
-
-
-
-
-
-
+button:hover {
+  background-color: #85502a;
+}
+.address,
+.hours,
+.contact {
+  font-family: "Merienda", cursive;
+  font-size: 24px;
+}
+.location,
+.week-hours,
+.contact-phone,
+.contact-email {
+  margin-top: 24px;
+  font-family: "Merienda", cursive;
+  font-size: 18px;
+}
+.happenings {
+    background-color: #333333;
+    height: 700px;
+}
 
 @media all and (max-width: 1440px) {
   .footer-disclosure {
