@@ -168,7 +168,9 @@ span.rest-name:hover {
     height: 300px; 
     display: flex;
     justify-content: space-evenly;
-    align-items:center
+    align-items: center;
+    
+    color: #ffffff;
 }
 .main-chicago-page {
     background-color: #333333;
@@ -176,6 +178,14 @@ span.rest-name:hover {
 .chicago-page-main-reservation {
     background: url("../img/food-img.jpg") center center/cover no-repeat;
     padding: 200px;
+}
+.chicago-page-main-about {
+    background-color: #333333;
+    height: 300px;     
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
