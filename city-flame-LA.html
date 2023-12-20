@@ -1,11 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>City & Flame Los Angeles</title>
-</head>
-<body>
-    <h1>Los Angeles</h1>
-</body>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="city-flame-la-wrapper">
+          <div class="nav-it">
+            <a href="#" class="chicago-nav">gift cards</a>
+          </div>
+          <div class="nav-it">
+            <a href="chicago-private-dining.html" class="chicago-nav">private dining</a>
+          </div>
+          <div class="nav-it">
+            <a href="#" class="chicago-nav">about</a>
+          </div>
+          <div class="nav-it">
+            <a class="chicago-nav" href="index.html"
+              ><span class="rest-name">Grill & Flame</span></a
+            >
+          </div>
+          <div class="nav-it">
+            <a class="chicago-nav" href="chicago-menu.html">menu</a>
+          </div>
+          <div class="nav-it">
+            <a class="chicago-nav" href="#">contact</a>
+          </div>
+          <div class="nav-it">
+            <a class="chicago-nav" href="#">reserve</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="la-main-image">
+        <img id="la-main-img" src="./img/la-main-img.jpg" alt="">
+      </section>
+      <section class="la-page-main-contact">
+        <div class="items-wrapper">
+          <div class="address">address</div>
+          <div class="location">809 W. Randolph, Chicago, IL</div>
+          <button>
+            <a
+              id="btn-direction"
+              href="https://www.google.com/maps/place/809+W+Randolph+St,+Chicago,+IL+60607/@41.8841094,-87.6505488,17z/data=!3m1!4b1!4m6!3m5!1s0x880e2cc533e60541:0x1dc7e4b2325f61fe!8m2!3d41.8841054!4d-87.6479739!16s%2Fg%2F11c2g3vnyp?entry=ttu"
+              >direction</a
+            >
+          </button>
+        </div>
+        <div class="items-wrapper">
+          <div class="hours">hours</div>
+          <div class="week-hours">
+            <b>Sunday - Thursday</b><br />
+            4:30pm - 10pm<br /><br /><b>Friday & Saturday</b><br />4:30pm - 11pm
+          </div>
+        </div>
+        <div class="items-wrapper">
+          <div class="contact">contact</div>
+          <div class="contact-phone">
+            <a id="contact-phone" href="tel:+13334926363">13334926363</a>
+          </div>
+          <br />
+          <div class="contact-email">
+            <a id="email-us" href="mailto:info@grillandflame.com"
+              >info@grillandflame.com</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="la-page-main-about">
+        <div class="img1-contact">
+          <img class="about-img" src="./img/chigaco-2.jpg" alt="" />
+        </div> 
+        <div class="img2-contact">
+          <img class="about-img" src="./img/image3.jpg" alt="" />
+        </div>
+        <div>
+          <h2 class="description-contact-la">Grill & Flame Los Angeles</h2>
+          <br />
+          <p class="description-contact-la">
+            As one of the first restaurants on Los Angele’s Grill & Flame began  <br />  in 2010 with a goal of serving bold, global flavors to our local <br /> community (and visitors!). Since then, our desire to treat guests like family has remained <br /> the same (as have our Green Beans) – but our seasonal flavors, cocktails, wine and <br /> locally-rooted beer are ever-changing
+          </p>
+        </div>
+      </section>
+      <section class="la-page-main-reservation">
+        <div class="reservation-wrapper">
+          <h2>make a reservation</h2>
+          <form class="reservation-form">
+            <input id="input-date" type="datetime-local" /><br />
+            <select
+              class="reservation-party-size"
+              area-label="reservation party size"
+            >
+              <option value="1">1 person</option>
+              <option value="1" selected="selected">2 people</option>
+              <option value="1">4 people</option>
+              <option value="1">5 people</option>
+              <option value="1">6 people</option>
+              <option value="1">7 people</option>
+              <option value="1">8 people</option>
+              <option value="1">9 people</option>
+              <option value="1">10 people</option>
+            </select>
+          </form>
+          <button>find a table</button>
+        </div>
+      </section>
+
+    </main>
+  </body>
 </html>

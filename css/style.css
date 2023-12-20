@@ -367,6 +367,39 @@ input {
 select {
   padding: 20px;
 }
+.city-flame-la-wrapper {
+  display: flex;
+  justify-content: space-around;
+  background-color: #757263;
+}
+#la-main-img {
+  width: 100%;
+  height: auto;
+}
+.la-page-main-contact {
+  background-color: #ffffff;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  color: #000000;
+  margin-top: 60px;
+}
+.la-page-main-about {
+  background-color: #ffffff;
+  height: 500px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.description-contact-la {
+  color: #000000;
+}
+.la-page-main-reservation {
+  background: url("../img/la-bg.jpg") center center/cover no-repeat;
+  padding: 200px;
+  opacity: 0.7;
+}
 @media all and (max-width: 1440px) {
   .footer-disclosure {
     padding-bottom: 80px;
