@@ -1,17 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Private Dining Chicago</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<header id="header"></header>
-<body>
-    <main">
-        <p>To enter an Event Request, please fill out the following form.</p>
-        <h3>Your contact information</h3>
-        <form action=""></form>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <header id="header"></header>
+  <body id="body-dining">
+    <main>
+      <img id="private-din-img" src="./img/privite-dining-bcg-img.jpg" alt="" />
+      <section id="form">
+        <div class="wrapper">
+          <div class="dining-form-wrapper">
+            <h3 class="event-dining-request">Event Request</h3>
+            <p class="event-dining">
+              To enter an Event Request, please fill out the following form
+            </p>
+            <h3 class="event-dining">Your Contact Information:</h3>
+            <form id="form" action="">
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname" /><br /><br />
+              <label for="lname">Last name:</label>
+              <input type="text" id="lname" name="lname" /><br /><br />
+              <label for="laddress">Email address:</label>
+              <input type="text" id="lemail" name="lemail" /><br /><br />
+              <label for="lphone">Phone number:</label>
+              <input type="text" id="lphone" name="lphone" /><br /><br />
+              <label for="lcomany">Company:</label>
+              <input type="text" id="company" name="lcompany" /><br /><br />
+              <h3 class="event-dining">Your Event Details</h3>
+              <label for="fevent"
+                >Nature of this Event (e.g., Birthday Party or Business
+                Dinner)</label
+              ><br />
+              <textarea name="" id="fevent" cols="30" rows="10"></textarea
+              ><br /><br />
+              <label for="fevent"></label>Is there any additional information
+              you would like to add?<br />
+              <textarea name="" id="fevent" cols="30" rows="5"></textarea
+              ><br /><br />
+              <label for="fevent"></label>How did you hear about us?<br />
+              <select name="options-to-know" id="options-to-know">
+                <option value="eventUp">EventUP</option>
+                <option value="instagram">Instagram</option>
+                <option value="facebook">Facebook</option>
+                <option value="email">Email</option>
+                <option value="audi">Others</option>
+              </select>
+            </form>
+            <button id="submit">SUBMIT</button>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
