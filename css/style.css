@@ -3,8 +3,8 @@ body {
   margin: 0;
 }
 img {
-  height: 1300px;
-  width: 80%;
+  height: 1200px;
+  width: 55%;
 }
 .wrapper {
   display: flex;
@@ -47,8 +47,7 @@ span {
   padding-bottom: 100px;
   padding-top: 10px;
 }
-.btn {
-  background-color: blue;
+.btn {  
   color: #000000;
   background-color: #f7f6f1;
   font-size: 40px;
@@ -91,7 +90,7 @@ span {
   background-color: #ffffff;
 }
 a:hover {
-  cursor: pointer;
+  cursor: pointer;  
 }
 .site-map-wrapper {
   display: flex;
@@ -222,12 +221,12 @@ p {
   cursor: pointer;
 }
 button {
-  background-color: #a76435;
-  padding: 12px 32px;
-  margin: 28px 0px 0px;
-  font-family: "Merienda", cursive;
-  font-size: 16px;
-}
+    background-color: #a76435;
+    padding: 12px 32px;
+    margin: 28px 0px 0px;
+    font-family: "Merienda", cursive;
+    font-size: 16px;
+  }
 button:hover {
   background-color: #85502a;
 }
@@ -279,11 +278,12 @@ select {
   margin-right: auto;
   width: 40%;
   margin-top: 70px;
-  margin-bottom: 70px;
+  margin-bottom: 70px;.
 }
 .happenings-img {
   height: 450px;
   width: 450px;
+  background: url("../img/food-img.jpg") center center/cover no-repeat;
 }
 .happenings-wrapper1 {
   display: flex;
@@ -327,6 +327,10 @@ select {
 #menu-chicago {
   height: 700px;
 }
+#header {
+  background: url("./img/private-dining-bcg-img") center center/cover no-repeat;
+}
+
 @media all and (max-width: 1440px) {
   .footer-disclosure {
     padding-bottom: 80px;
