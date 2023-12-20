@@ -400,6 +400,29 @@ select {
   padding: 200px;
   opacity: 0.7;
 }
+#la-reservation-title {
+  color: #000000;
+}
+.happenings-la {
+  background-color: #ffffff;
+  height: 2000px;
+}
+ #coctail-video {
+  width: 450px;
+  height: 630px;
+} 
+.city-flame-la-wrapper {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e1ccbe;
+}
+.la-mailing-list {
+  background-color: #e1ccbe;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media all and (max-width: 1440px) {
   .footer-disclosure {
     padding-bottom: 80px;
