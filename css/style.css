@@ -392,9 +392,6 @@ select {
   align-items: center;
   justify-content: space-around;
 }
-.description-contact-la {
-  color: #000000;
-}
 .la-page-main-reservation {
   background: url("../img/la-bg.jpg") center center/cover no-repeat;
   padding: 200px;
@@ -407,10 +404,10 @@ select {
   background-color: #ffffff;
   height: 2000px;
 }
- #coctail-video {
+#coctail-video {
   width: 450px;
   height: 630px;
-} 
+}
 .city-flame-la-wrapper {
   display: flex;
   justify-content: space-around;
@@ -422,6 +419,14 @@ select {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.items-wrapper-la,
+.accessibility,
+.description-contact-la {
+  color: #000000;
+}
+.link-overview-la {
+  margin: 0px 100px 0px 100px;
 }
 @media all and (max-width: 1440px) {
   .footer-disclosure {
