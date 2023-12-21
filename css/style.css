@@ -440,10 +440,12 @@ select {
   align-items: center;
 }
 #explore-menu {
- color: #000000;
- 
+ color: #000000; 
 }
-
+#la-mailing-list {
+  background-color: #757263;
+  margin-top: 100px;
+}
 @media all and (max-width: 1440px) {
   .footer-disclosure {
     padding-bottom: 80px;
