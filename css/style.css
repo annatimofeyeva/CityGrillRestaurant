@@ -225,7 +225,7 @@ button {
   padding: 12px 32px;
   margin: 28px 0px 0px;
   font-family: "Merienda", cursive;
-  font-size: 16px;
+  font-size: 16px;  
 }
 button:hover {
   background-color: #85502a;
