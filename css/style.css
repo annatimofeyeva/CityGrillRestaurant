@@ -462,7 +462,70 @@ select {
     height: 230px;
   }
 }
+@media all and (max-width: 991px) {
+  img {
+    height: 1000px;
+    width: 50%;
+  }
+  .btn {
+    font-size: 20px;
+  }
+  a.btn-chicago {
+    font-size: 20px;
+    left: 650px;
+    padding: 0px;
+  }
+  span.rest-name {
+    font-size: 25px;
+  }
+  .about-img {
+    width: 150px;
+    height: 150px;
+  }
+  .happenings-img {
+    width: 250px;
+    height: 250px;
+  }
+  /*  .city-flame-la-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } */
+  /*   .nav-it {
+    margin: 5px;
+  }
+} */
+}
 @media all and (max-width: 800px) {
+  img {
+    height: 900px;
+    width: 50%;
+  }
+  .btn {
+    left: 100px;
+  }
+  a.btn-chicago {
+    left: 450px;
+  }
+  .chicago-page-main-about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+  }
+  .happenings-img {
+    width: 200px;
+    height: 200px;
+  }
+  .happenings {
+    height: 1600px;
+  }
+  .about-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media all and (max-width: 380px) {
   .wrapper {
     display: flex;
     flex-direction: column;
