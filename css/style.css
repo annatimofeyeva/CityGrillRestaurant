@@ -539,5 +539,11 @@ select {
       top: 700px;
       font-size: 20px;
     }
+    .disclosure {
+      font-size: 18px;
+    }
+    #disclosure {
+      font-size: 15px;
+    }
   }
 }
