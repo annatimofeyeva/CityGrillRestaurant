@@ -498,7 +498,8 @@ select {
   a.btn-chicago {
     left: 450px;
   }
-  .chicago-page-main-about, .la-page-main-about {
+  .chicago-page-main-about,
+  .la-page-main-about {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -514,38 +515,29 @@ select {
   .about-img {
     width: 170px;
     height: 170px;
-    padding: 5px;   
+    padding: 5px;
   }
   #coctail-video {
     width: 300px;
   }
-@media all and (max-width: 380px) {
-  .wrapper {  
-    flex-direction: column;
-  }
-  img {
-   height: 500px;
-   width: 100%;
-   padding: 1px;
-  }
-  .btn {
-    top: 220px;
-    font-size: 24px;
-  }
-  a.btn-chicago {    
-    left: 82px;   
-    top: 700px;
-    font-size: 24px;
+  /* IPHONE SE */
+  @media all and (max-width: 380px) {
+    .wrapper {
+      flex-direction: column;
+    }
+    img {
+      height: 500px;
+      width: 100%;
+      padding: 1px;
+    }
+    .btn {
+      top: 220px;
+      font-size: 20px;
+    }
+    a.btn-chicago {
+      left: 82px;
+      top: 700px;
+      font-size: 20px;
+    }
   }
 }
-}
-
-  /*  .city-flame-la-wrapper {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  } */
-  /*   .nav-it {
-    margin: 5px;
-  }
-} */
