@@ -512,7 +512,7 @@ select {
   #coctail-video {
     width: 300px;
   }
-  .img1-contact, #reservation, #reserve-la {
+  .img1-contact, #reservation, #reserve-la, .footer-wrapper {
     margin-top: 200px;    
   }
 }
@@ -526,7 +526,7 @@ select {
       width: 100%;
       padding: 1px;
     }
-    .btn {
+    a#bnt-la {
       top: 220px;
       font-size: 20px;
     }
