@@ -485,6 +485,10 @@ select {
   }
   a.btn-chicago {
     left: 450px;
+    top: 350px;
+  }
+  a#bnt-la {
+    top: 400px;
   }
   .chicago-page-main-about,
   .la-page-main-about {
@@ -508,8 +512,8 @@ select {
   #coctail-video {
     width: 300px;
   }
-  #reserve-la, #reservation {
-    margin-top: 100px;
+  .img1-contact, #reservation, #reserve-la {
+    margin-top: 200px;    
   }
 }
   /* IPHONE SE */
