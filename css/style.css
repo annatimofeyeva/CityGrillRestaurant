@@ -559,6 +559,7 @@ select {
   #ny-dinner {
     text-align: center;  
     margin-top: 40px;
+    color: #ffffff; 
   }
   #ch-dinner {
     text-align: center;
@@ -620,9 +621,9 @@ select {
     margin-top: 1000px;
   }
   .items-wrapper {
-    flex-direction: column;
-  }
-  .about-img {
+    flex-direction: column;#ny-dinner {
+  
+    }
     width: 150px;
     height: 150px;
     padding: 5px;
@@ -648,11 +649,7 @@ select {
   }
   input {
     padding: 15px;
-  }
-  #ny-dinner {
-    margin-top: 0px;
-    width: 200px;   
-  }
+  }  
   .description-contact-la{
     text-align: center;  
     margin-top: 10px;
