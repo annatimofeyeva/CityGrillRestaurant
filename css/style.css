@@ -446,6 +446,9 @@ select {
   background-color: #757263;
   margin-top: 100px;
 }
+#la-happenings {
+  color: #000000;
+}
 @media all and (max-width: 1440px) {
   .footer-disclosure {
     padding-bottom: 80px;
@@ -461,6 +464,13 @@ select {
     width: 230px;
     height: 230px;
   }
+  .footer-wrapper {
+    width: 100%;
+  }
+  img {
+    height: 1200px;
+    width: 50%;
+  }
 }
 @media all and (max-width: 800px) {
   .description-contact {
@@ -471,7 +481,7 @@ select {
     width: 50%;
   }
   .btn {
-    left: 100px;
+    left: 50px;
   }
   a.btn-chicago {
     left: 450px;
@@ -491,13 +501,17 @@ select {
     height: 1600px;
   }
   .about-img {
-    width: 170px;
-    height: 170px;
+    width: 240px;
+    height: 240px;
     padding: 5px;
   }
   #coctail-video {
     width: 300px;
   }
+  #reserve-la, #reservation {
+    margin-top: 100px;
+  }
+}
   /* IPHONE SE */
   @media all and (max-width: 380px) {
     .wrapper {
@@ -534,7 +548,7 @@ select {
     #input-date {
       padding: 15px;
     }
-    .happenings-img {        
+    .happenings-img {
       height: 100px;
       width: 00px;
       background: url("../img/food-img.jpg") center center/cover no-repeat;
@@ -546,7 +560,7 @@ select {
       padding-right: 65px;
       font-size: 15px;
     }
-    #btn-direction{
+    #btn-direction {
       font-size: 25px;
     }
     .description-contact {
