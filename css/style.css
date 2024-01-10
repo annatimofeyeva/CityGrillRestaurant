@@ -557,14 +557,14 @@ select {
     height: 700px;
   }
   #ny-dinner {
-    text-align: center;  
+    text-align: center;
     margin-top: 40px;
     color: #ffffff;
   }
   #ch-dinner {
     text-align: center;
     margin: 0px;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
   }
   .disclosure {
     font-size: 18px;
@@ -600,7 +600,8 @@ select {
     justify-content: center;
     align-items: center;
   }
-  .description-contact-la, #chicago-description {
+  .description-contact-la,
+  #chicago-description {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
@@ -616,17 +617,10 @@ select {
     margin-top: 0px;
     height: 200px;
     width: 200px;
-  } 
-  .mailing-list, .la-mailing-list {
-    margin-top: 1000px;
   }
-  .items-wrapper {
-    flex-direction: column;#ny-dinner {
-  
-    }
-    width: 150px;
-    height: 150px;
-    padding: 5px;
+  .mailing-list,
+  .la-mailing-list {
+    margin-top: 1000px;
   }
   .happenings-wrapper1 {
     flex-direction: column;
@@ -635,9 +629,9 @@ select {
     padding: 10px;
   }
   #coctail-video {
-    width: 300px;   
+    width: 300px;
   }
-  .menu-img {    
+  .menu-img {
     flex-direction: column;
   }
   #private-din-img {
@@ -649,9 +643,22 @@ select {
   }
   input {
     padding: 15px;
-  }  
-  .description-contact-la{
-    text-align: center;  
+  }
+  .description-contact-la {
+    text-align: center;
     margin-top: 10px;
+  }
+  .la-page-main-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  #la-main-img {
+    margin-bottom: 100px;
+  }
+  .items-wrapper, .items-wrapper-la {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
