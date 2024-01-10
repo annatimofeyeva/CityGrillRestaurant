@@ -667,4 +667,7 @@ select {
   #bar-img {
     margin-top: 300px;
   } 
+  #desc-la {
+    margin-bottom: 300px;
+  }
 }
