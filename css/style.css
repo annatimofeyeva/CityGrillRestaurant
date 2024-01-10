@@ -557,12 +557,13 @@ select {
     height: 700px;
   }
   #ny-dinner {
-    text-align: center;
+    text-align: center;  
     margin-top: 40px;
   }
   #ch-dinner {
     text-align: center;
-    margin-top: 0px;
+    margin: 0px;
+    margin-bottom: 10px;    
   }
   .disclosure {
     font-size: 18px;
@@ -584,7 +585,6 @@ select {
   .happenings-img {
     height: 100px;
     width: 00px;
-    background: url("../img/food-img.jpg") center center/cover no-repeat;
   }
   .reservation-party-size {
     padding-top: 10px;
@@ -614,7 +614,7 @@ select {
     width: 200px;
   }
   .mailing-list {
-    margin-top: 500px;
+    margin-top: 600px;
   }
   .items-wrapper {
     flex-direction: column;
