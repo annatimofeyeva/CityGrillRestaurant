@@ -523,6 +523,16 @@ select {
   .wrapper {
     flex-direction: column;
   }
+  .site-map-label {
+    font-size: 30px;
+  }
+  .link-overview-la {
+    margin: 0px;
+    height: 500px;
+  }
+  #footer-accessibility {
+    margin-top: 400px;
+  }
   #footer-wrapper {
     padding: 10px;
   }
@@ -542,6 +552,13 @@ select {
     font-size: 20px;
     left: 90px;
     top: 200px;
+  }
+  #reserve-la {
+    height: 700px;
+  }
+  #ny-dinner {
+    text-align: center;
+    margin-top: 10px;
   }
   .disclosure {
     font-size: 18px;
@@ -574,12 +591,21 @@ select {
   }
   #btn-direction {
     font-size: 25px;
-  }
+    margin-left: 20px;
+  }    
   .description-contact {
     text-align: center;
   }
   .image {
     height: 300px;
+  }
+  .happenings-img {
+    margin-top: 0px;
+    height: 200px;
+    width: 200px;
+  } 
+  .mailing-list {
+    margin-top: 700px;
   }
   .items-wrapper {
     flex-direction: column;
