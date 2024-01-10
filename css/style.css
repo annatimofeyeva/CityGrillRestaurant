@@ -462,32 +462,10 @@ select {
     height: 230px;
   }
 }
-@media all and (max-width: 991px) {
-  img {
-    height: 1000px;
-    width: 50%;
-  }
-  .btn {
-    font-size: 20px;
-  }
-  a.btn-chicago {
-    font-size: 20px;
-    left: 650px;
-    padding: 0px;
-  }
-  span.rest-name {
-    font-size: 25px;
-  }
-  .about-img {
-    width: 150px;
-    height: 150px;
-  }
-  .happenings-img {
-    width: 250px;
-    height: 250px;
-  }
-}
 @media all and (max-width: 800px) {
+  .description-contact {
+    text-align: center;
+  }
   img {
     height: 900px;
     width: 50%;
@@ -544,6 +522,58 @@ select {
     }
     #disclosure {
       font-size: 15px;
+    }
+    .nav-it {
+      margin: 10px;
+    }
+    .city-flame-chicago-wrapper,
+    .city-flame-la-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    #input-date {
+      padding: 15px;
+    }
+    .happenings-img {        
+      height: 100px;
+      width: 00px;
+      background: url("../img/food-img.jpg") center center/cover no-repeat;
+    }
+    .reservation-party-size {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 50px;
+      padding-right: 65px;
+      font-size: 15px;
+    }
+    #btn-direction{
+      font-size: 25px;
+    }
+    .description-contact {
+      text-align: center;
+    }
+    .image {
+      height: 300px;
+    }
+    .items-wrapper {
+      flex-direction: column;
+    }
+    .about-img {
+      width: 150px;
+      height: 150px;
+      padding: 5px;
+    }
+    #chicago-description {
+      font-size: 15px;
+      line-height: 25px;
+      margin-left: 3px;
+    }
+    .happenings-wrapper1 {
+      flex-direction: column;
+    }
+    #btn-direction {
+      justify-content: center;
+      align-items: center;
     }
   }
 }
