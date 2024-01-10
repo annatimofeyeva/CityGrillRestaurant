@@ -512,86 +512,96 @@ select {
   #coctail-video {
     width: 300px;
   }
-  .img1-contact, #reservation, #reserve-la, .footer-wrapper {
-    margin-top: 200px;    
+  .img1-contact,
+  #reservation,
+  #reserve-la {
+    margin-top: 200px;
   }
 }
-  /* IPHONE SE */
-  @media all and (max-width: 380px) {
-    .wrapper {
-      flex-direction: column;
-    }
-    img {
-      height: 500px;
-      width: 100%;
-      padding: 1px;
-    }
-    a#bnt-la {
-      top: 220px;
-      font-size: 20px;
-    }
-    a.btn-chicago {
-      left: 82px;
-      top: 700px;
-      font-size: 20px;
-    }
-    .disclosure {
-      font-size: 18px;
-    }
-    #disclosure {
-      font-size: 15px;
-    }
-    .nav-it {
-      margin: 10px;
-    }
-    .city-flame-chicago-wrapper,
-    .city-flame-la-wrapper {
-      flex-direction: column;
-      align-items: center;
-    }
-    #input-date {
-      padding: 15px;
-    }
-    .happenings-img {
-      height: 100px;
-      width: 00px;
-      background: url("../img/food-img.jpg") center center/cover no-repeat;
-    }
-    .reservation-party-size {
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 50px;
-      padding-right: 65px;
-      font-size: 15px;
-    }
-    #btn-direction {
-      font-size: 25px;
-    }
-    .description-contact {
-      text-align: center;
-    }
-    .image {
-      height: 300px;
-    }
-    .items-wrapper {
-      flex-direction: column;
-    }
-    .about-img {
-      width: 150px;
-      height: 150px;
-      padding: 5px;
-    }
-    #chicago-description {
-      font-size: 15px;
-      line-height: 25px;
-      margin-left: 3px;
-    }
-    .happenings-wrapper1 {
-      flex-direction: column;
-    }
-    #btn-direction {
-      justify-content: center;
-      align-items: center;
-    }
+/* IPHONE SE */
+@media all and (max-width: 380px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  #footer-wrapper {
+    padding: 10px;
+  }
+  img {
+    height: 500px;
+    width: 100%;
+    padding: 1px;
+  }
+  a.btn-chicago {
+    left: 70px;
+    top: 700px;
+    font-size: 20px;
+    padding: 10px;
+  }
+  a#btn-la {
+    padding: 40px;
+    font-size: 20px;
+    left: 90px;
+    top: 200px;
+  }
+  .disclosure {
+    font-size: 18px;
+  }
+  #disclosure {
+    font-size: 15px;
+  }
+  .nav-it {
+    margin: 10px;
+  }
+  .city-flame-chicago-wrapper,
+  .city-flame-la-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  #input-date {
+    padding: 15px;
+  }
+  .happenings-img {
+    height: 100px;
+    width: 00px;
+    background: url("../img/food-img.jpg") center center/cover no-repeat;
+  }
+  .reservation-party-size {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 65px;
+    font-size: 15px;
+  }
+  #btn-direction {
+    font-size: 25px;
+  }
+  .description-contact {
+    text-align: center;
+  }
+  .image {
+    height: 300px;
+  }
+  .items-wrapper {
+    flex-direction: column;
+  }
+  .about-img {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+  }
+  #chicago-description {
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 3px;
+  }
+  .happenings-wrapper1 {
+    flex-direction: column;
+  }
+  #btn-direction {
+    justify-content: center;
+    align-items: center;
+  }
+  #chicago-main-img {
+    padding: 10px;
   }
 }
