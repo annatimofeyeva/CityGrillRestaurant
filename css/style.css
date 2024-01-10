@@ -637,4 +637,10 @@ select {
   #chicago-main-img {
     padding: 10px;
   }
+  #coctail-video {
+    width: 200px;
+  }
+  .menu-img {    
+    flex-direction: column;
+  }
 }
