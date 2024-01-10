@@ -515,7 +515,7 @@ select {
   .img1-contact,
   #reservation,
   #reserve-la {
-    margin-top: 200px;
+    margin-top: 300px;
   }
 }
 /* IPHONE SE */
@@ -559,7 +559,7 @@ select {
   #ny-dinner {
     text-align: center;  
     margin-top: 40px;
-    color: #ffffff; 
+    color: #ffffff;
   }
   #ch-dinner {
     text-align: center;
