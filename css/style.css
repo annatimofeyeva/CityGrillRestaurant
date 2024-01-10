@@ -558,7 +558,11 @@ select {
   }
   #ny-dinner {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 40px;
+  }
+  #ch-dinner {
+    text-align: center;
+    margin-top: 0px;
   }
   .disclosure {
     font-size: 18px;
@@ -589,23 +593,28 @@ select {
     padding-right: 65px;
     font-size: 15px;
   }
-  #btn-direction {
+  button {
     font-size: 25px;
     margin-left: 20px;
-  }    
+    justify-content: center;
+    align-items: center;
+  }
   .description-contact {
     text-align: center;
   }
   .image {
     height: 300px;
   }
+  #happenings-img4 {
+    margin-top: 50px;
+  }
   .happenings-img {
     margin-top: 0px;
     height: 200px;
     width: 200px;
-  } 
+  }
   .mailing-list {
-    margin-top: 700px;
+    margin-top: 500px;
   }
   .items-wrapper {
     flex-direction: column;
@@ -618,14 +627,12 @@ select {
   #chicago-description {
     font-size: 15px;
     line-height: 25px;
-    margin-left: 3px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .happenings-wrapper1 {
     flex-direction: column;
-  }
-  #btn-direction {
-    justify-content: center;
-    align-items: center;
   }
   #chicago-main-img {
     padding: 10px;
