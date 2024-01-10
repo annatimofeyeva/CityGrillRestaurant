@@ -599,22 +599,25 @@ select {
     justify-content: center;
     align-items: center;
   }
-  .description-contact {
+  .description-contact-la, #chicago-description {
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .image {
     height: 300px;
   }
   #happenings-img4 {
     margin-top: 50px;
+    margin-bottom: 0px;
   }
   .happenings-img {
     margin-top: 0px;
     height: 200px;
     width: 200px;
-  }
-  .mailing-list {
-    margin-top: 600px;
+  } 
+  .mailing-list, .la-mailing-list {
+    margin-top: 1000px;
   }
   .items-wrapper {
     flex-direction: column;
@@ -624,13 +627,6 @@ select {
     height: 150px;
     padding: 5px;
   }
-  #chicago-description {
-    font-size: 15px;
-    line-height: 25px;
-    justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
   .happenings-wrapper1 {
     flex-direction: column;
   }
@@ -638,7 +634,7 @@ select {
     padding: 10px;
   }
   #coctail-video {
-    width: 200px;
+    width: 300px;   
   }
   .menu-img {    
     flex-direction: column;
@@ -652,5 +648,13 @@ select {
   }
   input {
     padding: 15px;
+  }
+  #ny-dinner {
+    margin-top: 0px;
+    width: 200px;   
+  }
+  .description-contact-la{
+    text-align: center;  
+    margin-top: 10px;
   }
 }
