@@ -627,12 +627,15 @@ select {
   }
   #chicago-main-img {
     padding: 10px;
+
   }
   #coctail-video {
-    width: 300px;
+    width: 250px;
+    padding: 5px;
   }
   .menu-img {
     flex-direction: column;
+    margin-top: 0px;
   }
   #private-din-img {
     width: 100%;
@@ -663,5 +666,5 @@ select {
   }
   #bar-img {
     margin-top: 300px;
-  }
+  } 
 }
