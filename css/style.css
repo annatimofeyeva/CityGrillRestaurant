@@ -643,4 +643,14 @@ select {
   .menu-img {    
     flex-direction: column;
   }
+  #private-din-img {
+    width: 100%;
+    height: 150px;
+  }
+  .dining-form-wrapper {
+    text-align: center;
+  }
+  input {
+    padding: 15px;
+  }
 }
