@@ -675,5 +675,8 @@ select {
   #bar-img {
     margin-top: 240px;
   }
- 
+  .accessibility {
+    margin-left: 10px;
+    margin-right: 5px;
+  } 
 }
