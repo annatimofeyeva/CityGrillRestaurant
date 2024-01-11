@@ -665,8 +665,8 @@ select {
     flex-direction: column;
     align-items: center;
   }
-  #bar-img {
-    margin-top: 500px;
+  #about-la {
+    margin-top: 300px;
   } 
   #desc-la {
     margin-bottom: 500px;
